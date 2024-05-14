@@ -1,0 +1,26 @@
+.column-two{
+    display: block;
+}
+
+input[type= text], select, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 6px 0 16px 0;
+    resize: none;
+}
+
+input[type=submit]{
+    background-color: aquamarine;
+    color: var(--main-text-color);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 12px ;
+    transition: 1s;
+}
+
+input[type=submit]:hover{
+    background-color: aqua;
+}
